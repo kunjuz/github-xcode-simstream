@@ -84,7 +84,7 @@
         
         //-- JSON Parsing
         NSMutableArray *result = [NSJSONSerialization JSONObjectWithData:responseData options:NSJSONReadingMutableContainers error:nil];
-        //NSLog(@"Result = %@",result);
+        NSLog(@"Result = %@",result);
         
         arrayWithPlaces = [result valueForKey:@"DealsList"];
         // NSLog(@"%@",arrayWithPlaces);

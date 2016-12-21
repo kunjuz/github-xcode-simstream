@@ -1,0 +1,3 @@
+target ’SimstreamTask’ do
+ pod 'Reachability'
+end
