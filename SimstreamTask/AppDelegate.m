@@ -7,8 +7,13 @@
 //
 
 #import "AppDelegate.h"
+#import "HostViewController.h"
+#import "firstViewController.h"
+#import "SecondViewController.h"
+#import "ThirdViewController.h"
+#import "FourthViewController.h"
 
-@interface AppDelegate ()
+@interface AppDelegate ()<UITabBarControllerDelegate>
 
 @end
 
@@ -17,6 +22,12 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    self.window=[[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    [self tabbaraction];
+    self.window.rootViewController=_tabBarController;
+    [self.window makeKeyAndVisible];
+
     return YES;
 }
 
@@ -40,6 +51,35 @@
 
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+-(void)tabbaraction
+{
+    HostViewController *viewController1;
+    firstViewController *viewController2;
+    SecondViewController *viewController3;
+    ThirdViewController *viewController4;
+    FourthViewController *viewController5;
+    
+    
+    
+    
+    viewController1 = [[HostViewController alloc] initWithNibName:@"ViewController" bundle:nil];
+    viewController2=[[firstViewController alloc]initWithNibName:@"firstViewController" bundle:nil];
+    viewController3 = [[SecondViewController alloc] initWithNibName:@"SecondViewController" bundle:nil];
+    viewController4=[[ThirdViewController alloc]initWithNibName:@"ThirdViewController" bundle:nil];
+    viewController5=[[FourthViewController alloc]initWithNibName:@"FourthViewController" bundle:nil];
+    
+    navigation1=[[UINavigationController alloc] initWithRootViewController:viewController1];
+    navigation2=[[UINavigationController alloc] initWithRootViewController:viewController2];
+    navigation3=[[UINavigationController alloc] initWithRootViewController:viewController3];
+    navigation4=[[UINavigationController alloc] initWithRootViewController:viewController4];
+    navigation5=[[UINavigationController alloc] initWithRootViewController:viewController5];
+    
+    
+    self.tabBarController.delegate=self;
+    self.tabBarController=[[UITabBarController alloc]init];
+    self.tabBarController.viewControllers = [NSArray arrayWithObjects:navigation1,navigation2,navigation3,navigation4,navigation5, nil];
+    
 }
 
 @end

@@ -7,25 +7,68 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9401AAA4BFF5BA4CFCD322D9 /* libPods-SimstreamTask.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 91C151C996167F19FE717498 /* libPods-SimstreamTask.a */; };
 		A60676541E0A42960023FBC8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A60676531E0A42960023FBC8 /* main.m */; };
 		A60676571E0A42960023FBC8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A60676561E0A42960023FBC8 /* AppDelegate.m */; };
-		A606765A1E0A42960023FBC8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A60676591E0A42960023FBC8 /* ViewController.m */; };
-		A606765D1E0A42960023FBC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A606765B1E0A42960023FBC8 /* Main.storyboard */; };
 		A606765F1E0A42960023FBC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A606765E1E0A42960023FBC8 /* Assets.xcassets */; };
-		A60676621E0A42960023FBC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A60676601E0A42960023FBC8 /* LaunchScreen.storyboard */; };
+		A606766A1E0A436B0023FBC8 /* explore@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A60676691E0A436B0023FBC8 /* explore@2x.png */; };
+		A606766C1E0A43710023FBC8 /* explore-black@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A606766B1E0A43710023FBC8 /* explore-black@2x.png */; };
+		A60676861E0A43B20023FBC8 /* CategoryCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A606766E1E0A43B20023FBC8 /* CategoryCollectionViewCell.m */; };
+		A60676871E0A43B20023FBC8 /* CategoryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A606766F1E0A43B20023FBC8 /* CategoryCollectionViewCell.xib */; };
+		A60676881E0A43B20023FBC8 /* ContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A60676711E0A43B20023FBC8 /* ContentViewController.m */; };
+		A60676891E0A43B20023FBC8 /* firstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A60676731E0A43B20023FBC8 /* firstViewController.m */; };
+		A606768A1E0A43B20023FBC8 /* firstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A60676741E0A43B20023FBC8 /* firstViewController.xib */; };
+		A606768B1E0A43B20023FBC8 /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A60676761E0A43B20023FBC8 /* FourthViewController.m */; };
+		A606768C1E0A43B20023FBC8 /* FourthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A60676771E0A43B20023FBC8 /* FourthViewController.xib */; };
+		A606768D1E0A43B20023FBC8 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A60676781E0A43B20023FBC8 /* HomeViewController.xib */; };
+		A606768E1E0A43B20023FBC8 /* HostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A606767A1E0A43B20023FBC8 /* HostViewController.m */; };
+		A606768F1E0A43B20023FBC8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A606767B1E0A43B20023FBC8 /* LaunchScreen.xib */; };
+		A60676901E0A43B20023FBC8 /* ListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A606767C1E0A43B20023FBC8 /* ListView.xib */; };
+		A60676911E0A43B20023FBC8 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A606767E1E0A43B20023FBC8 /* SecondViewController.m */; };
+		A60676921E0A43B20023FBC8 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A606767F1E0A43B20023FBC8 /* SecondViewController.xib */; };
+		A60676931E0A43B20023FBC8 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A60676811E0A43B20023FBC8 /* ThirdViewController.m */; };
+		A60676941E0A43B20023FBC8 /* ThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A60676821E0A43B20023FBC8 /* ThirdViewController.xib */; };
+		A60676951E0A43B20023FBC8 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A60676831E0A43B20023FBC8 /* ViewController.xib */; };
+		A60676961E0A43B20023FBC8 /* ViewPagerController.m in Sources */ = {isa = PBXBuildFile; fileRef = A60676851E0A43B20023FBC8 /* ViewPagerController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2510F060403394737B5804C1 /* Pods-SimstreamTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimstreamTask.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SimstreamTask/Pods-SimstreamTask.debug.xcconfig"; sourceTree = "<group>"; };
+		2B6B406AF3A00F9117842602 /* Pods-SimstreamTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimstreamTask.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimstreamTask/Pods-SimstreamTask.release.xcconfig"; sourceTree = "<group>"; };
+		91C151C996167F19FE717498 /* libPods-SimstreamTask.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SimstreamTask.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A606764F1E0A42960023FBC8 /* SimstreamTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimstreamTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A60676531E0A42960023FBC8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A60676551E0A42960023FBC8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A60676561E0A42960023FBC8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A60676581E0A42960023FBC8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A60676591E0A42960023FBC8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		A606765C1E0A42960023FBC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A606765E1E0A42960023FBC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A60676611E0A42960023FBC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A60676631E0A42960023FBC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A60676691E0A436B0023FBC8 /* explore@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "explore@2x.png"; sourceTree = "<group>"; };
+		A606766B1E0A43710023FBC8 /* explore-black@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "explore-black@2x.png"; sourceTree = "<group>"; };
+		A606766D1E0A43B20023FBC8 /* CategoryCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryCollectionViewCell.h; sourceTree = "<group>"; };
+		A606766E1E0A43B20023FBC8 /* CategoryCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryCollectionViewCell.m; sourceTree = "<group>"; };
+		A606766F1E0A43B20023FBC8 /* CategoryCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CategoryCollectionViewCell.xib; sourceTree = "<group>"; };
+		A60676701E0A43B20023FBC8 /* ContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentViewController.h; sourceTree = "<group>"; };
+		A60676711E0A43B20023FBC8 /* ContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentViewController.m; sourceTree = "<group>"; };
+		A60676721E0A43B20023FBC8 /* firstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = firstViewController.h; sourceTree = "<group>"; };
+		A60676731E0A43B20023FBC8 /* firstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = firstViewController.m; sourceTree = "<group>"; };
+		A60676741E0A43B20023FBC8 /* firstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = firstViewController.xib; sourceTree = "<group>"; };
+		A60676751E0A43B20023FBC8 /* FourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
+		A60676761E0A43B20023FBC8 /* FourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
+		A60676771E0A43B20023FBC8 /* FourthViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FourthViewController.xib; sourceTree = "<group>"; };
+		A60676781E0A43B20023FBC8 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		A60676791E0A43B20023FBC8 /* HostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HostViewController.h; sourceTree = "<group>"; };
+		A606767A1E0A43B20023FBC8 /* HostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HostViewController.m; sourceTree = "<group>"; };
+		A606767B1E0A43B20023FBC8 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		A606767C1E0A43B20023FBC8 /* ListView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListView.xib; sourceTree = "<group>"; };
+		A606767D1E0A43B20023FBC8 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		A606767E1E0A43B20023FBC8 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		A606767F1E0A43B20023FBC8 /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+		A60676801E0A43B20023FBC8 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		A60676811E0A43B20023FBC8 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		A60676821E0A43B20023FBC8 /* ThirdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThirdViewController.xib; sourceTree = "<group>"; };
+		A60676831E0A43B20023FBC8 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		A60676841E0A43B20023FBC8 /* ViewPagerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewPagerController.h; sourceTree = "<group>"; };
+		A60676851E0A43B20023FBC8 /* ViewPagerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewPagerController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +76,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9401AAA4BFF5BA4CFCD322D9 /* libPods-SimstreamTask.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		17891BD3EF639D39CA8EDD29 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2510F060403394737B5804C1 /* Pods-SimstreamTask.debug.xcconfig */,
+				2B6B406AF3A00F9117842602 /* Pods-SimstreamTask.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A60676461E0A42950023FBC8 = {
 			isa = PBXGroup;
 			children = (
+				A60676691E0A436B0023FBC8 /* explore@2x.png */,
+				A606766B1E0A43710023FBC8 /* explore-black@2x.png */,
 				A60676511E0A42960023FBC8 /* SimstreamTask */,
 				A60676501E0A42960023FBC8 /* Products */,
+				17891BD3EF639D39CA8EDD29 /* Pods */,
+				C9A289C9F96A58CC3EB00B1F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +115,29 @@
 		A60676511E0A42960023FBC8 /* SimstreamTask */ = {
 			isa = PBXGroup;
 			children = (
+				A60676971E0A43BE0023FBC8 /* customClass */,
 				A60676551E0A42960023FBC8 /* AppDelegate.h */,
 				A60676561E0A42960023FBC8 /* AppDelegate.m */,
-				A60676581E0A42960023FBC8 /* ViewController.h */,
-				A60676591E0A42960023FBC8 /* ViewController.m */,
-				A606765B1E0A42960023FBC8 /* Main.storyboard */,
+				A60676791E0A43B20023FBC8 /* HostViewController.h */,
+				A606767A1E0A43B20023FBC8 /* HostViewController.m */,
+				A60676831E0A43B20023FBC8 /* ViewController.xib */,
+				A60676701E0A43B20023FBC8 /* ContentViewController.h */,
+				A60676711E0A43B20023FBC8 /* ContentViewController.m */,
+				A60676781E0A43B20023FBC8 /* HomeViewController.xib */,
+				A60676721E0A43B20023FBC8 /* firstViewController.h */,
+				A60676731E0A43B20023FBC8 /* firstViewController.m */,
+				A60676741E0A43B20023FBC8 /* firstViewController.xib */,
+				A60676751E0A43B20023FBC8 /* FourthViewController.h */,
+				A60676761E0A43B20023FBC8 /* FourthViewController.m */,
+				A60676771E0A43B20023FBC8 /* FourthViewController.xib */,
+				A606767B1E0A43B20023FBC8 /* LaunchScreen.xib */,
+				A606767D1E0A43B20023FBC8 /* SecondViewController.h */,
+				A606767E1E0A43B20023FBC8 /* SecondViewController.m */,
+				A606767F1E0A43B20023FBC8 /* SecondViewController.xib */,
+				A60676801E0A43B20023FBC8 /* ThirdViewController.h */,
+				A60676811E0A43B20023FBC8 /* ThirdViewController.m */,
+				A60676821E0A43B20023FBC8 /* ThirdViewController.xib */,
 				A606765E1E0A42960023FBC8 /* Assets.xcassets */,
-				A60676601E0A42960023FBC8 /* LaunchScreen.storyboard */,
 				A60676631E0A42960023FBC8 /* Info.plist */,
 				A60676521E0A42960023FBC8 /* Supporting Files */,
 			);
@@ -79,6 +152,27 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		A60676971E0A43BE0023FBC8 /* customClass */ = {
+			isa = PBXGroup;
+			children = (
+				A60676841E0A43B20023FBC8 /* ViewPagerController.h */,
+				A60676851E0A43B20023FBC8 /* ViewPagerController.m */,
+				A606766D1E0A43B20023FBC8 /* CategoryCollectionViewCell.h */,
+				A606766E1E0A43B20023FBC8 /* CategoryCollectionViewCell.m */,
+				A606766F1E0A43B20023FBC8 /* CategoryCollectionViewCell.xib */,
+				A606767C1E0A43B20023FBC8 /* ListView.xib */,
+			);
+			name = customClass;
+			sourceTree = "<group>";
+		};
+		C9A289C9F96A58CC3EB00B1F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91C151C996167F19FE717498 /* libPods-SimstreamTask.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +180,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A60676661E0A42960023FBC8 /* Build configuration list for PBXNativeTarget "SimstreamTask" */;
 			buildPhases = (
+				2AF6D153409646E017AF62D5 /* [CP] Check Pods Manifest.lock */,
 				A606764B1E0A42960023FBC8 /* Sources */,
 				A606764C1E0A42960023FBC8 /* Frameworks */,
 				A606764D1E0A42960023FBC8 /* Resources */,
+				173E2314FC994BE76CF93232 /* [CP] Embed Pods Frameworks */,
+				65136A5A3D73955A5588ACC5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -136,45 +233,90 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A60676621E0A42960023FBC8 /* LaunchScreen.storyboard in Resources */,
+				A60676871E0A43B20023FBC8 /* CategoryCollectionViewCell.xib in Resources */,
+				A606766C1E0A43710023FBC8 /* explore-black@2x.png in Resources */,
+				A60676901E0A43B20023FBC8 /* ListView.xib in Resources */,
+				A606766A1E0A436B0023FBC8 /* explore@2x.png in Resources */,
+				A60676941E0A43B20023FBC8 /* ThirdViewController.xib in Resources */,
+				A60676921E0A43B20023FBC8 /* SecondViewController.xib in Resources */,
+				A606768A1E0A43B20023FBC8 /* firstViewController.xib in Resources */,
+				A606768F1E0A43B20023FBC8 /* LaunchScreen.xib in Resources */,
+				A606768C1E0A43B20023FBC8 /* FourthViewController.xib in Resources */,
+				A606768D1E0A43B20023FBC8 /* HomeViewController.xib in Resources */,
+				A60676951E0A43B20023FBC8 /* ViewController.xib in Resources */,
 				A606765F1E0A42960023FBC8 /* Assets.xcassets in Resources */,
-				A606765D1E0A42960023FBC8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		173E2314FC994BE76CF93232 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimstreamTask/Pods-SimstreamTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2AF6D153409646E017AF62D5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		65136A5A3D73955A5588ACC5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimstreamTask/Pods-SimstreamTask-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A606764B1E0A42960023FBC8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A606765A1E0A42960023FBC8 /* ViewController.m in Sources */,
+				A606768E1E0A43B20023FBC8 /* HostViewController.m in Sources */,
+				A606768B1E0A43B20023FBC8 /* FourthViewController.m in Sources */,
+				A60676961E0A43B20023FBC8 /* ViewPagerController.m in Sources */,
+				A60676891E0A43B20023FBC8 /* firstViewController.m in Sources */,
+				A60676881E0A43B20023FBC8 /* ContentViewController.m in Sources */,
+				A60676911E0A43B20023FBC8 /* SecondViewController.m in Sources */,
+				A60676931E0A43B20023FBC8 /* ThirdViewController.m in Sources */,
+				A60676861E0A43B20023FBC8 /* CategoryCollectionViewCell.m in Sources */,
 				A60676571E0A42960023FBC8 /* AppDelegate.m in Sources */,
 				A60676541E0A42960023FBC8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		A606765B1E0A42960023FBC8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A606765C1E0A42960023FBC8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		A60676601E0A42960023FBC8 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A60676611E0A42960023FBC8 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		A60676641E0A42960023FBC8 /* Debug */ = {
@@ -214,7 +356,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -252,7 +394,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -261,9 +403,11 @@
 		};
 		A60676671E0A42960023FBC8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2510F060403394737B5804C1 /* Pods-SimstreamTask.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SimstreamTask/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cybraum..SimstreamTask;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -272,9 +416,11 @@
 		};
 		A60676681E0A42960023FBC8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B6B406AF3A00F9117842602 /* Pods-SimstreamTask.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SimstreamTask/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cybraum..SimstreamTask;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -300,6 +446,7 @@
 				A60676681E0A42960023FBC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
